@@ -1,0 +1,201 @@
+@charset "utf-8";
+
+* {
+    margin: 2%;
+    padding: 0;
+}
+
+@keyframes imgskate {
+
+from{
+transform: translatex(0px);
+
+}
+
+to {
+    transform: translatex(700px);
+}
+
+
+}
+
+
+
+body {
+    background-image: url(https://images.unsplash.com/photo-1550353127-b0da3aeaa0ca?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+  background-size: cover;
+  height: 110%;
+}
+
+header {
+    background-color: rgb(64, 64, 151);
+    padding: 2em;
+    border-radius: 20%;
+    margin-bottom: 10%;
+}
+
+header h4{
+    font-size: 60px;
+    font-family: 'Honk', system-ui;
+}
+
+input {
+    color: purple;
+    text-shadow: 3px 1px 1px #000;
+    background-color: rgb(255, 60, 0);
+    margin-top: 5%;
+padding: 2% 2% 2% 2%;
+    border: solid 5px rgb(184, 16, 16);
+    font-size: 30px;
+    font-family: 'Honk', system-ui;
+    border-radius: 50px;
+    
+}
+
+h1 {
+    margin-bottom: 10%;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    font-family: 'Honk', system-ui;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    background-color: rgb(64, 64, 151);
+    padding: 1em;
+    border-radius: 10%;
+    font-size: 50px;
+}
+
+
+p {
+    padding-top: 5%;
+    font-size: 30px;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    padding-bottom: 5%;
+    font-family: 'Honk', system-ui;
+}
+
+h2 iframe {
+    margin-top: 2%;
+    border: solid 5px #000;
+    border-radius: 50px;
+}
+
+
+.titulo img {
+    width: 40%;
+    border: solid 5px white;
+    border-radius: 100px;
+    margin-top: 5%;
+}
+
+.titulo {
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+
+.imagensprincipais {
+    text-align: center;
+}
+
+.imagensprincipais img {
+    text-align: center;
+    border: solid #ffffff 5px;
+    border-radius: 100px;
+}
+
+.imagensprincipais img {
+    margin-bottom: 15%;
+    width: 85%;
+    height: 35%;
+}
+
+.imgprincipais2 img {
+    margin-bottom: 15%;
+    width: 80%;
+    border: solid #ffffff 5px;
+    border-radius: 100px;
+}
+
+.container {
+    display: flex;
+}
+
+footer {
+    background-color: rgb(64, 64, 151);
+    background-size: 500px;
+    border-radius: 20%;
+    padding-bottom: -5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+footer img {
+    /* margin-bottom: 1%; */
+    margin-top: 2%;
+    /* width: 300px; */
+    margin-left: 45%;
+
+}
+
+h3 {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 5%;
+    padding-top: -10%;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    font-family: 'Honk', system-ui;
+    
+}
+
+h5 img{
+    width: 300px;
+    height: 300px;
+    animation: imgskate 3s infinite;
+}
+
+@media all and (max-width: 760px) {
+
+    header h4{
+     width: 300px;
+     font-size: 40px;
+    }
+ }
+
+ h1{
+    font-size: 35px;
+ }
+
+ input{
+    width: 300px;
+    font-size: 20px;
+ }
+
+ h1 p{
+    font-size: 30px;
+ }
+
+ iframe{
+    width: 300px;
+ }
+
+ footer img{
+    width: 100px;
+ }
+
+ /* h3{
+    font-size: 15px;
+    width:200px;
+ } */
